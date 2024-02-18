@@ -1,4 +1,6 @@
-![AWS SOLUTIONS ARCHITECT ASSOCIATE](https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png)
+<div style="text-align:center">
+    <img src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png">
+</div>
 
 # AWS Solutions Architect Associate Complete Course
 - An AWS Solutions Architect is a professional who has expertise in designing distributed systems and applications on AWS platform
