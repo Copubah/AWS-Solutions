@@ -1,6 +1,6 @@
 # Introduction to Cloud 101
 - Define cloud computing and describe the benefits
-- Compare and Contrast cloud computing service and deplyment models
+- Compare and Contrast cloud computing service and deployment models
 - Identify the AWS Global Infrastructure
 - Discuss the shared responsibility model
 - Describe the well-architectured framework and its role in building flexible and reliable architectures
@@ -22,3 +22,30 @@ Cloud Computing is the on-demand delivery of I.T resources over the internet wit
 - Security: Cloud providers invest heavily in security measures and compliance certifications to protect data and infrastructure from cyber threats and breaches. 
 
 - Innovation and Time-to-Market: Cloud computing enables rapid innovation by providing access to a wide range of cutting-edge technologies, development tools, and third-party services. 
+
+## Deployment models
+- Infrastructure as a service(Iaas)-contains the basic building blocks for cloud,it provides access to networking features,computers(virtual or on dedicated hardware),and data storage
+- Platform as a service(Paas)-the organizations do not need to manage the infrastructure,they focus on the deployment and management of applications
+- Software as a service(Saas)-a completed software product that the service provider runs and manages
+
+## Cloud computing deployment models
+- Cloud;one can migrate existing applications to the cloud or you can design and build new applications in the cloud
+
+- Hybrid;cloud-based resources are connected to on-premises infrastructure,cloud-based resources can be intergrated with legacy I.T applications
+
+- On-premises;also known as private cloud deployment,resources are deployed on premises by using virtaulization and resource tool management tools
+
+## AWS Global Infrastructure
+- Main components of AWS global infrastructure are regions,availability zones and edge locations
+1. Regions:have multiple AZs(availability zones)
+2. Availability zones:have one or more data centres and different power supply companies
+3. Edge locations:used by Cloudfront
+
+## AWS ARCHITECTURE
+- It is important to plan for failure for example when a file is stored in Amazon S3,it is copied into every AZ in that region so that if one AZ goes down you still have two copies of that file available
+- Compute resources can also be spread out across several AZs to guarantee high availability so that if one goes down ,the architecture is still up and running
+- Database;you can configure your database for multi-AZ deployment so that if your primary database fails,the other on standby takes over 
+
+
+## AWS Shared responsibility
+- AWS is responsible for the security of the cloud while the customer is responsible for security in the cloud
