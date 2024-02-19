@@ -49,3 +49,14 @@ Cloud Computing is the on-demand delivery of I.T resources over the internet wit
 
 ## AWS Shared responsibility
 - AWS is responsible for the security of the cloud while the customer is responsible for security in the cloud
+
+
+## AWS pricing models
+- Pay-as-you-go;can be used based on need and not forecast
+- Save when you reserve;offers savings plan over on-demand in exchange for a commitment to use a specific amount(measured in $/hour for a 1 or 3 year period)
+- Pay less by using more;you can get get volume based discounts and save as your usage increases
+
+## Billing examples
+- Amazon EC2;you pay for only the compute time you use while your instances are running
+- Amazon S3;you pay only for the storage you use
+- AWS Lambda;you are charged based on the number of requests for your functions and the time taken for them to run
