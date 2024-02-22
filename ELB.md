@@ -19,3 +19,5 @@
 1. Keep it simple especially when you dont have complex load balancing needs like application specific routing of requests
 2. If your architecture is so simple,lets say one server only set up a load balancer anyway as you will get more flexibility especially when scaling as you wont have to change any DNS settings 
 3. Scaling in most circumstances is not instant and if you are expecting a hike in traffic you can do a dry run or contact Amazon to have them 'pre-warm' the balancer
+4. Automate ELB configuration;use AWS CloudFormation or AWS Elastic Beanstalk to automate provisioning
+5. Implement cross-zone load balancing to evenly distributed incoming traffic across all instances in all AZs
