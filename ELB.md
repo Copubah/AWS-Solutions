@@ -1,5 +1,16 @@
 # Elastic Load Balancing
-- Elastic load balancing(ELB),automatically disributes incoming application traffic across multiple Amazon EC2 instances in the cloud
+- Elastic load balancing(ELB),automatically distributes incoming application traffic across multiple Amazon EC2 instances in the cloud in one or more Availabilty Zones 
+
+## Types of ELBs
+1. Application load balancer;best suited for routing HTTP/HTTPS traffic and provides advanced routing features
+2. Network load balancer;ideal for handling TCP/UDP traffic,suitable for gaming,IOT and other heavy workloads
+3. Classic load balancer;legacy load balancer that distributes traffic accross EC2 instances but with fewer features as the above two.
+
+
+## ELB Diagram
+
+
+![Architecture Diagram](https://miro.medium.com/v2/resize:fit:720/format:webp/1*vUG06AzpKmeEr7fyMZddsw.png).
 
 
 
